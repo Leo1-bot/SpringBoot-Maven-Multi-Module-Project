@@ -2,67 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8511a37-9693-470a-9e79-871288dca395" name="Default Changelist" comment="Currency get data from mssql server for Rest and Web">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_8_3_0_jre8_preview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_12_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ace/insurance/model/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/CurrencyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restapi/src/main/java/RestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restapi/src/main/java/com/ace/insurance/api/CurrencyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restapi/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/CurrencyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/CurrencyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/web/currencyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/resources/templates/currency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_8_10_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_2_0_SP1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_faces_2_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_joinfaces_autoconfigure_4_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_jsf_spring_boot_starter_4_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_mojarra_spring_boot_starter_4_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_primefaces_spring_boot_starter_4_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_tomcat_spring_boot_starter_4_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_primefaces_extensions_7_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_resources_ckeditor_7_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/CustomCurrencyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/CustomCurrencyRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ace/insurance/model/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/ace/insurance/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ace/insurance/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ace/insurance/model/Currency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multi-module-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multi-module-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repository/repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/repository.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target/classes/com/ace/insurance/repository/EmployeeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/restapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/restapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/src/main/java/com/ace/insurance/api/EmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/src/main/java/com/ace/insurance/api/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/WebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/target/classes/com/ace/insurance/api/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/target/classes/com/ace/insurance/api/WebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/CurrencyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/CurrencyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/restapi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/src/main/java/RestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/src/main/java/com/ace/insurance/api/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/api/CurrencyRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/EmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/ace/insurance/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/CurrencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/CurrencyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/CurrencyServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/web/currencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/web/CurrencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/webapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webapp.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -119,22 +108,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\resources\static" />
-      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\webapp\WEB-INF\pages" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ace.insurance.web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\restapi\src\main\resources" />
       <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\resources\templates" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api" />
+      <recent name="com.ace.insurance.web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\resources\static" />
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\webapp\WEB-INF\pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RestApplication">
+  <component name="RunManager" selected="Spring Boot.WebApplication">
     <configuration name="RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="restapi" />
       <extension name="coverage">
@@ -163,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RestApplication" />
         <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Spring Boot.RestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +174,7 @@
       <workItem from="1586017519272" duration="1499000" />
       <workItem from="1586019065544" duration="252000" />
       <workItem from="1586137975681" duration="24904000" />
-      <workItem from="1586224204690" duration="863000" />
+      <workItem from="1586224204690" duration="29294000" />
     </task>
     <task id="LOCAL-00001" summary="Added lombok in employee model class">
       <created>1586019248210</created>
@@ -193,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586019248210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Currency get data from mssql server for Rest and Web">
+      <created>1586225100335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586225100335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,18 +203,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Currency get data from mssql server for Rest and Web" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Assign_Data_Sources" timestamp="1586159879233">
+    <state x="233" y="0" key="#Assign_Data_Sources" timestamp="1586251753957">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Assign_Data_Sources/0.0.1280.680@0.0.1280.680" timestamp="1586159879233" />
+    <state x="233" y="0" key="#Assign_Data_Sources/0.0.1280.680@0.0.1280.680" timestamp="1586251753957" />
     <state x="212" y="0" key="#JBoss_Server" timestamp="1586018413581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="212" y="0" key="#JBoss_Server/0.0.1280.680@0.0.1280.680" timestamp="1586018413581" />
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1586158273623">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1586256319595">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586158273623" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586256319595" />
     <state x="438" y="200" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586171077831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -226,54 +223,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586224311094" />
-    <state x="158" y="0" key="CommitChangelistDialog2" timestamp="1586224648540">
+    <state x="110" y="0" key="CommitChangelistDialog2" timestamp="1586263396348">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="158" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586224648540" />
+    <state x="110" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586263396348" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586156734797">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586156734797" />
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1586225062574">
+    <state width="1237" height="160" key="GridCell.Tab.0.bottom" timestamp="1586263396443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586225062574" />
-    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1586225062574">
+    <state width="1237" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586263396443" />
+    <state width="1237" height="160" key="GridCell.Tab.0.center" timestamp="1586263396443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586225062574" />
-    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1586225062574">
+    <state width="1237" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586263396443" />
+    <state width="1237" height="160" key="GridCell.Tab.0.left" timestamp="1586263396443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586225062574" />
-    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1586225062574">
+    <state width="1237" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586263396443" />
+    <state width="1237" height="160" key="GridCell.Tab.0.right" timestamp="1586263396443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586225062574" />
-    <state width="1237" height="170" key="GridCell.Tab.1.bottom" timestamp="1586225062574">
+    <state width="1237" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586263396443" />
+    <state width="1237" height="160" key="GridCell.Tab.1.bottom" timestamp="1586263396443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586225062574" />
-    <state width="1237" height="170" key="GridCell.Tab.1.center" timestamp="1586225062574">
+    <state width="1237" height="160" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586263396443" />
+    <state width="1237" height="160" key="GridCell.Tab.1.center" timestamp="1586263396443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586225062574" />
-    <state width="1237" height="170" key="GridCell.Tab.1.left" timestamp="1586225062574">
+    <state width="1237" height="160" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586263396443" />
+    <state width="1237" height="160" key="GridCell.Tab.1.left" timestamp="1586263396443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586225062574" />
-    <state width="1237" height="170" key="GridCell.Tab.1.right" timestamp="1586225062574">
+    <state width="1237" height="160" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586263396443" />
+    <state width="1237" height="160" key="GridCell.Tab.1.right" timestamp="1586263396443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586225062574" />
+    <state width="1237" height="160" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586263396443" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1586019038863">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586019038863" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586019251740">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586225105657">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586019251740" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586225105657" />
     <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1586019069744">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

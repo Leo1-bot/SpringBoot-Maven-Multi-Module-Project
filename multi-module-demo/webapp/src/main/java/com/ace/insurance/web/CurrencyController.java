@@ -12,18 +12,18 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/currency")
-public class currencyController {
+public class CurrencyController {
 
-    @Autowired
-    private CurrencyService theService;
-
-    @GetMapping("/lists")
-    public String listCurrency(Model theModel) {
-
-        List<Currency> theCurrencies = theService.findAll();
-
-        theModel.addAttribute("currencies", theCurrencies);
-
-        return "currency";
-    }
+//    @Autowired
+//    private CurrencyService theService;
+//
+//    @GetMapping("/lists")
+//    public String listCurrency(Model theModel) {
+//
+//        List<Currency> theCurrencies = theService.findAll();
+//
+//        theModel.addAttribute("currencies", theCurrencies);
+//
+//        return "currency";
+//    }
 }
