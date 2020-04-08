@@ -1,6 +1,7 @@
-package com.ace.insurance.repository;
+package com.ace.insurance.repositoryAdapters;
 
 import com.ace.insurance.model.Currency;
+import com.ace.insurance.repositoryPorts.CustomCurrencyRepository;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -13,7 +13,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name="currency")
 @SQLDelete(sql = "UPDATE currency SET deleted = 1 WHERE id = ?")
-//@Where(clause = "deleted = 0")
 public class Currency {
 
     @Id

@@ -1,4 +1,4 @@
-package com.ace.insurance.repository;
+package com.ace.insurance.repositoryPorts;
 
 import com.ace.insurance.model.Currency;
 

@@ -1,16 +1,12 @@
-package com.ace.insurance.service;
+package com.ace.insurance.serviceAdapters;
 
 import com.ace.insurance.model.Currency;
-import com.ace.insurance.repository.CurrencyRepository;
-import com.ace.insurance.repository.CustomCurrencyRepository;
-import org.hibernate.Filter;
-import org.hibernate.Session;
-import org.hibernate.query.Query;
+import com.ace.insurance.repositoryPorts.CustomCurrencyRepository;
+import com.ace.insurance.servicePorts.CurrencyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.EntityManager;
 import java.util.List;
 
 @Service

@@ -1,7 +1,7 @@
 package com.ace.insurance.api;
 
 import com.ace.insurance.model.Currency;
-import com.ace.insurance.service.CurrencyService;
+import com.ace.insurance.servicePorts.CurrencyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.RepositoryRestController;
 import org.springframework.http.HttpStatus;
@@ -18,9 +18,9 @@ public class CurrencyRestController {
     private CurrencyService service;
 
 //  Getting currency data as filtered by isDeleted
-    @GetMapping("/currencies/filter")
+    @GetMapping("/currencies")
     public ResponseEntity<List<Currency>> getAllCurrency(
-            @RequestParam(value = "isDeleted") boolean isDeleted){
+            @RequestParam(value = "isDeleted", required = false, defaultValue = "false") boolean isDeleted){
         List<Currency> currencies = service.findAllFilter(isDeleted);
         return new ResponseEntity<>(currencies, HttpStatus.OK);
     }
