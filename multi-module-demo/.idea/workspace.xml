@@ -2,15 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8511a37-9693-470a-9e79-871288dca395" name="Default Changelist" comment="Managed classes into separated packages and fixed soft delete findAll function displaying all data issue">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/multi_module_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_8_10_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_65.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_2_0_SP1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_faces_2_3_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_joinfaces_autoconfigure_4_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_jsf_spring_boot_starter_4_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_mojarra_spring_boot_starter_4_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_primefaces_spring_boot_starter_4_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_tomcat_spring_boot_starter_4_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_primefaces_extensions_7_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_resources_ckeditor_7_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ace/insurance/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ace/insurance/model/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/CustomCurrencyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repositoryPorts/CustomCurrencyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/CustomCurrencyRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repositoryAdapters/CustomCurrencyRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/servicePorts/CurrencyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/service/CurrencyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/serviceAdapters/CurrencyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/WebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/api/CurrencyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/api/CurrencyRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/web/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/web/CurrencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi-module-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multi-module-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/repository.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/serviceAdapters/CurrencyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/serviceAdapters/CurrencyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/servicePorts/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/servicePorts/CurrencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/src/main/java/com/ace/insurance/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/api/CurrencyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/src/main/java/com/ace/insurance/api/CurrencyRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/ace/insurance/web/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/src/main/java/com/ace/insurance/web/CurrencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/resources/templates/currency.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/webapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controllers.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +52,26 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,6 +96,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -59,7 +106,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/restapi/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../thymeleafdemo-db" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,20 +114,24 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\controllers\src\main\resources\templates" />
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\controllers\src\main\webapp" />
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\controllers\src\main\web\WEB-INF" />
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\controllers\src\main" />
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\resources\static" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\restapi\src\main\resources" />
-      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="api" />
       <recent name="com.ace.insurance.web" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\resources\static" />
-      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\webapp\WEB-INF\pages" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\controllers\src\main\resources\templates" />
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\restapi\src\main\resources" />
+      <recent name="D:\Side Projects\SpringBoot-Maven-Multi-Module-Project\multi-module-demo\webapp\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.WebApplication">
@@ -98,7 +149,7 @@
       </method>
     </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="webapp" />
+      <module name="controllers" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
@@ -135,7 +186,9 @@
       <workItem from="1586137975681" duration="24904000" />
       <workItem from="1586224204690" duration="29461000" />
       <workItem from="1586316066998" duration="4362000" />
-      <workItem from="1586320790389" duration="485000" />
+      <workItem from="1586320790389" duration="1922000" />
+      <workItem from="1586341536874" duration="9030000" />
+      <workItem from="1586412593071" duration="10204000" />
     </task>
     <task id="LOCAL-00001" summary="Added lombok in employee model class">
       <created>1586019248210</created>
@@ -158,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586263429972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Managed classes into separated packages and fixed soft delete findAll function displaying all data issue">
+      <created>1586321493215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586321493215</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,78 +237,90 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Assign_Data_Sources/0.0.1280.680@0.0.1280.680" timestamp="1586251753957" />
+    <state x="233" y="0" key="#Inspections" timestamp="1586412893310">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1586412893310" />
     <state x="212" y="0" key="#JBoss_Server" timestamp="1586018413581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="212" y="0" key="#JBoss_Server/0.0.1280.680@0.0.1280.680" timestamp="1586018413581" />
+    <state x="233" y="0" key="#Notifications" timestamp="1586412361594">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1586412361594" />
     <state x="371" y="96" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586318831674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="96" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586318831674" />
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1586318860991">
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586363957689">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586318860991" />
-    <state x="272" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586321095100">
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586363957689" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1586428082076">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="272" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1586321095100" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586428082076" />
+    <state x="272" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586413208554">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="272" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1586413208554" />
     <state x="438" y="200" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586171077831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="200" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1586171077831" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586224311094">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586341092298">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586224311094" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1586320192714">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586341092298" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1586430724627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586320192714" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586156734797">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586430724627" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586425985654">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586156734797" />
-    <state width="1237" height="160" key="GridCell.Tab.0.bottom" timestamp="1586320750890">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586425985654" />
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom" timestamp="1586430724780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586320750890" />
-    <state width="1237" height="160" key="GridCell.Tab.0.center" timestamp="1586320750885">
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586430724780" />
+    <state width="1237" height="152" key="GridCell.Tab.0.center" timestamp="1586430724780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586320750885" />
-    <state width="1237" height="160" key="GridCell.Tab.0.left" timestamp="1586320750885">
+    <state width="1237" height="152" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586430724780" />
+    <state width="1237" height="152" key="GridCell.Tab.0.left" timestamp="1586430724780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586320750885" />
-    <state width="1237" height="160" key="GridCell.Tab.0.right" timestamp="1586320750885">
+    <state width="1237" height="152" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586430724780" />
+    <state width="1237" height="152" key="GridCell.Tab.0.right" timestamp="1586430724780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586320750885" />
-    <state width="1237" height="160" key="GridCell.Tab.1.bottom" timestamp="1586320750897">
+    <state width="1237" height="152" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586430724780" />
+    <state width="1237" height="152" key="GridCell.Tab.1.bottom" timestamp="1586430724780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586320750897" />
-    <state width="1237" height="160" key="GridCell.Tab.1.center" timestamp="1586320750890">
+    <state width="1237" height="152" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586430724780" />
+    <state width="1237" height="152" key="GridCell.Tab.1.center" timestamp="1586430724780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586320750890" />
-    <state width="1237" height="160" key="GridCell.Tab.1.left" timestamp="1586320750890">
+    <state width="1237" height="152" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586430724780" />
+    <state width="1237" height="152" key="GridCell.Tab.1.left" timestamp="1586430724780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586320750890" />
-    <state width="1237" height="160" key="GridCell.Tab.1.right" timestamp="1586320750890">
+    <state width="1237" height="152" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586430724780" />
+    <state width="1237" height="152" key="GridCell.Tab.1.right" timestamp="1586430724780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586320750890" />
-    <state x="143" y="0" key="SettingsEditor" timestamp="1586321281971">
+    <state width="1237" height="152" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586430724780" />
+    <state x="143" y="0" key="SettingsEditor" timestamp="1586366257379">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="143" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586321281971" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586263432823">
+    <state x="143" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586366257379" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586321496903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586263432823" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586321496903" />
     <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1586019069744">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

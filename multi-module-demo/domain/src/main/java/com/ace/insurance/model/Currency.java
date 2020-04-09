@@ -7,6 +7,7 @@ import org.hibernate.annotations.*;
 import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import java.text.DecimalFormat;
 
 @Data
 @NoArgsConstructor
@@ -21,6 +22,7 @@ public class Currency {
     private int id;
 
     @Column(name = "rates")
+    @Getter(AccessLevel.NONE)
     private float rates;
 
     @Column(name = "fromcurrency")
@@ -34,9 +36,18 @@ public class Currency {
     @JsonIgnore
     private boolean deleted;
 
+    // Declare decimal format for float value
+    @Transient
+    DecimalFormat df = new DecimalFormat();
+
     // Assigning default 0 value to deleted as if it's existing
     public void setDeleted() {
         this.deleted = false;
+    }
+
+    public String getRates() {
+        df.setMaximumFractionDigits(5);
+        return df.format(rates);
     }
 
     public Currency(int id, float rates, String fromCurrency, String toCurrency, boolean deleted) {

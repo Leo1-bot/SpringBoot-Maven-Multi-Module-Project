@@ -2,14 +2,10 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currency</title>
-    <!-- Bootstrap CSS -->
+    <title>Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" th:href="@{/css/demo.css}">
 </head>
 <body>
-
 <div class="container">
 
     <h3>Currency Rates</h3>
@@ -18,17 +14,17 @@
     <table class="table table-bordered table-striped">
         <thead class="thead-dark">
         <tr>
-            <th>Rate</th>
-            <th>Currency From</th>
-            <th>Currency To</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Rates</th>
         </tr>
         </thead>
         <tbody>
-        <tr th:each="tempEmployee : ${currencies}">
+        <tr th:each="tempCurrency : ${currencyList}">
 
-            <td th:text="${tempEmployee.rate}"></td>
-            <td th:text="${tempEmployee.fromCurrency}"></td>
-            <td th:text="${tempEmployee.toCurrency}"></td>
+            <td th:text="${tempCurrency.fromCurrency}"></td>
+            <td th:text="${tempCurrency.toCurrency}"></td>
+            <td th:text="${tempCurrency.rates}"></td>
         </tr>
         </tbody>
     </table>

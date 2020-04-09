@@ -12,16 +12,6 @@
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.joinfaces/primefaces-spring-boot-starter -->
-        <dependency>
-            <groupId>org.joinfaces</groupId>
-            <artifactId>primefaces-spring-boot-starter</artifactId>
-            <version>4.1.5</version>
-        </dependency>
-        <dependency>
             <groupId>com.ace.insurance</groupId>
             <artifactId>domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>

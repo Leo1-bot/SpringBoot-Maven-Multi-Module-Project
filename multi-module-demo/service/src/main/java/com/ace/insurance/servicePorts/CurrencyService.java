@@ -8,5 +8,5 @@ import java.util.List;
 public interface CurrencyService {
 
     List<Currency> findAllFilter(boolean isDeleted);
-
+    List<Currency> findAll();
 }
