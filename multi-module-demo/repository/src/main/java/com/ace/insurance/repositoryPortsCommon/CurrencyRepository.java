@@ -1,4 +1,4 @@
-package com.ace.insurance.repository;
+package com.ace.insurance.repositoryPortsCommon;
 
 import com.ace.insurance.model.Currency;
 import org.springframework.data.jpa.repository.JpaRepository;

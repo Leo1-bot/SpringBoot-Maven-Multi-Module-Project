@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>PrimeFaces Currency Rates Example</title>
+</h:head>
+
+<h:body>
+<!--    Message Form-->
+    <h:form>
+        <p:messages id="messages" showDetail="true" closable="true">
+            <p:autoUpdate />
+        </p:messages>
+    </h:form>
+
+<!--    Input Form-->
+    <h:form id="input-form">
+        <p:panel id="panel" header="Currency Exchange Rates">
+            <h:panelGrid columns="2" cellpadding="4">
+                <h:outputText value="From Currency: " />
+                <p:inputText id="fromcurrency" value="#{currencyController.currencyModel.fromCurrency}" required="true"/>
+
+                <h:outputText value="To Currency: " />
+                <p:inputText id="tocurrency" value="#{currencyController.currencyModel.toCurrency}" required="true"/>
+
+                <h:outputText value="Rate: " />
+                <p:inputText id="rate" value="#{currencyController.currencyModel.rates}" required="true"/>
+
+                <p:inputText id="id" value="#{currencyController.currencyModel.id}" type="hidden" />
+
+            </h:panelGrid>
+            <div style="margin-left:150px;">
+                <p:commandButton
+                        id="cancel" value="Cancel"
+                        action="#{currencyController.cancel()}"
+                        update="panel" style="width:90px;height:30px"/>
+
+                <p:commandButton
+                        id="submit" value="Submit"
+                        action="#{currencyController.saveCurrency(currencyController.currencyModel)}"
+                        update=":list-form:list, panel" style="margin-left:15px;width:90px;height:30px"/>
+            </div>
+
+        </p:panel>
+    </h:form>
+
+    <p:separator />
+
+<!--    Data Table-->
+    <h:form id="list-form">
+        <p:dataTable id="list" var="currency" value="#{currencyController.currencyList()}" rowIndexVar="index">
+
+            <p:column headerText="No">
+                <h:outputText value="#{index + 1}" />
+            </p:column>
+
+            <p:column headerText="From">
+                <h:outputText value="#{currency.fromCurrency}" />
+            </p:column>
+
+            <p:column headerText="To">
+                <h:outputText value="#{currency.toCurrency}" />
+            </p:column>
+
+            <p:column headerText="Rates">
+                <h:outputText value="#{currency.rates}" />
+            </p:column>
+
+            <p:column headerText="Action">
+                <p:commandButton value="Update"
+                                 action="#{currencyController.updateCurrency(currency.id)}"
+                                 style="margin-left:30px;width:90px;height:30px" styleClass="ui-priority-primary" update=":input-form:panel"/>
+
+                <p:commandButton value="Delete"
+                                 onclick="if (!confirm('Are you sure you want to delete this record?')) return false"
+                                 action="#{currencyController.deleteCurrency(currency.id)}"
+                                 style="width:90px;height:30px" styleClass="ui-priority-primary" update="list"/>
+            </p:column>
+
+        </p:dataTable>
+    </h:form>
+</h:body>
+</html>
