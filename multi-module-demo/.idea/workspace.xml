@@ -1,46 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8511a37-9693-470a-9e79-871288dca395" name="Default Changelist" comment="Hello World with primefaces sample">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_8_10_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_65.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_faces_2_3_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_joinfaces_autoconfigure_4_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_jsf_spring_boot_starter_4_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_mojarra_spring_boot_starter_4_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_primefaces_spring_boot_starter_4_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_joinfaces_tomcat_spring_boot_starter_4_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_primefaces_extensions_7_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_resources_ckeditor_7_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/src/main/resources/META-INF/resources/grid.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+    <list default="true" id="f8511a37-9693-470a-9e79-871288dca395" name="Default Changelist" comment="CRUD system with exception handling for saving, deleting and updating. Added required fields validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/controllers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controllers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/src/main/java/com/ace/insurance/web/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/src/main/java/com/ace/insurance/web/CurrencyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi-module-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multi-module-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/repository.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repository/CurrencyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/com/ace/insurance/repositoryPortsCommon/CurrencyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/serviceAdapters/CurrencyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/serviceAdapters/CurrencyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/servicePorts/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/ace/insurance/servicePorts/CurrencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ace/insurance/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ace/insurance/model/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.mv.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +154,9 @@
       <workItem from="1586412593071" duration="10204000" />
       <workItem from="1586493548602" duration="3612000" />
       <workItem from="1586607356458" duration="9758000" />
-      <workItem from="1586657271993" duration="20835000" />
+      <workItem from="1586657271993" duration="21005000" />
+      <workItem from="1586749906696" duration="1536000" />
+      <workItem from="1586949990538" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="Added lombok in employee model class">
       <created>1586019248210</created>
@@ -220,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586321493215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CRUD system with exception handling for saving, deleting and updating. Added required fields validation">
+      <created>1586705415030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586705415030</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +206,8 @@
     <MESSAGE value="Finished CRUD of Spring Data Rest with soft delete and filters" />
     <MESSAGE value="Managed classes into separated packages and fixed soft delete findAll function displaying all data issue" />
     <MESSAGE value="Hello World with primefaces sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello World with primefaces sample" />
+    <MESSAGE value="CRUD system with exception handling for saving, deleting and updating. Added required fields validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD system with exception handling for saving, deleting and updating. Added required fields validation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Assign_Data_Sources" timestamp="1586251753957">
@@ -276,54 +250,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586341092298" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1586705222839">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1586950083695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586705222839" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586950083695" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586494081830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586494081830" />
-    <state width="1237" height="186" key="GridCell.Tab.0.bottom" timestamp="1586705297509">
+    <state width="1237" height="186" key="GridCell.Tab.0.bottom" timestamp="1586936841986">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586705297509" />
-    <state width="1237" height="186" key="GridCell.Tab.0.center" timestamp="1586705297509">
+    <state width="1237" height="186" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586936841986" />
+    <state width="1237" height="186" key="GridCell.Tab.0.center" timestamp="1586936841986">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586705297509" />
-    <state width="1237" height="186" key="GridCell.Tab.0.left" timestamp="1586705297509">
+    <state width="1237" height="186" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586936841986" />
+    <state width="1237" height="186" key="GridCell.Tab.0.left" timestamp="1586936841986">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586705297509" />
-    <state width="1237" height="186" key="GridCell.Tab.0.right" timestamp="1586705297509">
+    <state width="1237" height="186" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586936841986" />
+    <state width="1237" height="186" key="GridCell.Tab.0.right" timestamp="1586936841986">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586705297509" />
-    <state width="1237" height="186" key="GridCell.Tab.1.bottom" timestamp="1586705297509">
+    <state width="1237" height="186" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586936841986" />
+    <state width="1237" height="186" key="GridCell.Tab.1.bottom" timestamp="1586936841987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586705297509" />
-    <state width="1237" height="186" key="GridCell.Tab.1.center" timestamp="1586705297509">
+    <state width="1237" height="186" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586936841987" />
+    <state width="1237" height="186" key="GridCell.Tab.1.center" timestamp="1586936841987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586705297509" />
-    <state width="1237" height="186" key="GridCell.Tab.1.left" timestamp="1586705297509">
+    <state width="1237" height="186" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586936841987" />
+    <state width="1237" height="186" key="GridCell.Tab.1.left" timestamp="1586936841986">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586705297509" />
-    <state width="1237" height="186" key="GridCell.Tab.1.right" timestamp="1586705297509">
+    <state width="1237" height="186" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586936841986" />
+    <state width="1237" height="186" key="GridCell.Tab.1.right" timestamp="1586936841987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586705297509" />
+    <state width="1237" height="186" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586936841987" />
     <state x="143" y="0" key="SettingsEditor" timestamp="1586366257379">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="143" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586366257379" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586321496903">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586705418069">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586321496903" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586705418069" />
     <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1586019069744">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
